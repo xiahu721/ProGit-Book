@@ -1,0 +1,1440 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Git 与 Subversion · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="243dee579e1958b7ef4eb4298c629637.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/">
+            
+                    
+                    起步
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/c3c2acea22ea3f6a535ba0d2c45980bb.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/c3c2acea22ea3f6a535ba0d2c45980bb.html">
+            
+                    
+                    关于版本控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/fd13ea9b28efa9a1729b93bfb17f086d.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/fd13ea9b28efa9a1729b93bfb17f086d.html">
+            
+                    
+                    Git 简史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/ae0ec90e20d54106d66f26ea8bc4b08b.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/ae0ec90e20d54106d66f26ea8bc4b08b.html">
+            
+                    
+                    Git 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/6e0c1c58b01e9bb06ff87500d5fef81c.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/6e0c1c58b01e9bb06ff87500d5fef81c.html">
+            
+                    
+                    安装 Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/9ec5e864e2b643299104771e53bf607c.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/9ec5e864e2b643299104771e53bf607c.html">
+            
+                    
+                    初次运行 Git 前的配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/0012ab3f506aaaa9e394d10a3a2501f0.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/0012ab3f506aaaa9e394d10a3a2501f0.html">
+            
+                    
+                    获取帮助
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../ff1ccf57e98c817df1efcd9fe44a8aeb/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/">
+            
+                    
+                    Git 基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/107fe4ab44e898e1015240fbd8e18205.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/107fe4ab44e898e1015240fbd8e18205.html">
+            
+                    
+                    取得项目的 Git 仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/3e436fe8a5f0c6a13913a517ba651922.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/3e436fe8a5f0c6a13913a517ba651922.html">
+            
+                    
+                    记录每次更新到仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/868feef91ec6e72ec2dab9ae0635960a.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/868feef91ec6e72ec2dab9ae0635960a.html">
+            
+                    
+                    查看提交历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/1bcb7a7230ad12fe27337b0543290de1.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/1bcb7a7230ad12fe27337b0543290de1.html">
+            
+                    
+                    撤消操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/22ed938ef387482edeef7c9df5be341b.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/22ed938ef387482edeef7c9df5be341b.html">
+            
+                    
+                    远程仓库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/cabca1a814ce6e7af2246e5ffce6a57e.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/cabca1a814ce6e7af2246e5ffce6a57e.html">
+            
+                    
+                    打标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/66ca05de55087c14f6704ce0ccf8155d.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/66ca05de55087c14f6704ce0ccf8155d.html">
+            
+                    
+                    技巧和窍门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../ae0ec90e20d54106d66f26ea8bc4b08b/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/">
+            
+                    
+                    Git 分支
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/7ec792e4b5a42cd44323c1da0ffb46d3.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/7ec792e4b5a42cd44323c1da0ffb46d3.html">
+            
+                    
+                    何谓分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/fa9e39774296847022eb4e23c6e2f37b.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/fa9e39774296847022eb4e23c6e2f37b.html">
+            
+                    
+                    分支的新建与合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/6aab4135f50b815ed5e576b5480271ca.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/6aab4135f50b815ed5e576b5480271ca.html">
+            
+                    
+                    分支的管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/400fbab5b469bc68e77e7ba8a38de038.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/400fbab5b469bc68e77e7ba8a38de038.html">
+            
+                    
+                    利用分支进行开发的工作流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/7c9744505de1088d1d5c4fe6d1dcccab.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/7c9744505de1088d1d5c4fe6d1dcccab.html">
+            
+                    
+                    远程分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/ef10bc7bf2dd11cddcf106e4f5a1a37a.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/ef10bc7bf2dd11cddcf106e4f5a1a37a.html">
+            
+                    
+                    分支的衍合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../3b1652ba27b78115eac23a4bb00ea4fa/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                <a href="../3b1652ba27b78115eac23a4bb00ea4fa/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/">
+            
+                    
+                    服务器上的 Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/c1dd8616b7a0fb08e36c5d4f60ade5bc.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/c1dd8616b7a0fb08e36c5d4f60ade5bc.html">
+            
+                    
+                    协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/ffd675a9643dcffc9908a2f1e19d642c.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/ffd675a9643dcffc9908a2f1e19d642c.html">
+            
+                    
+                    在服务器上部署 Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/3303c10bd1ca5c46cff5ac87410f09ca.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/3303c10bd1ca5c46cff5ac87410f09ca.html">
+            
+                    
+                    生成 SSH 公钥
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/8b4286f069552f8d1844d8fbf8dd8cc6.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/8b4286f069552f8d1844d8fbf8dd8cc6.html">
+            
+                    
+                    架设服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/99eddbf523aa931320314840b96a95d0.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/99eddbf523aa931320314840b96a95d0.html">
+            
+                    
+                    公共访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/cf0543c039db8fa75980f6673416db00.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/cf0543c039db8fa75980f6673416db00.html">
+            
+                    
+                    GitWeb
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/dd767e39ff6f2caf159ca67273b5c8f7.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/dd767e39ff6f2caf159ca67273b5c8f7.html">
+            
+                    
+                    Gitosis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/b60cff70126a55243f738debc93cae75.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/b60cff70126a55243f738debc93cae75.html">
+            
+                    
+                    Gitolite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/c0f69ebbfa22751a350554ee55ba9556.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/c0f69ebbfa22751a350554ee55ba9556.html">
+            
+                    
+                    Git 守护进程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/1badd646d480a18632cad2dd9f93433e.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/1badd646d480a18632cad2dd9f93433e.html">
+            
+                    
+                    Git 托管服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../99a33eb28b1b93b15bd60ce4d3731f51/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                <a href="../99a33eb28b1b93b15bd60ce4d3731f51/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../fa469cbec35474fb1a8c2bcc7a965f78/">
+            
+                <a href="../fa469cbec35474fb1a8c2bcc7a965f78/">
+            
+                    
+                    分布式 Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../fa469cbec35474fb1a8c2bcc7a965f78/7459726ce39c8d1116a6ab490836a71d.html">
+            
+                <a href="../fa469cbec35474fb1a8c2bcc7a965f78/7459726ce39c8d1116a6ab490836a71d.html">
+            
+                    
+                    分布式工作流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../fa469cbec35474fb1a8c2bcc7a965f78/ceb9daa69b63f214697dd1902cfaaa12.html">
+            
+                <a href="../fa469cbec35474fb1a8c2bcc7a965f78/ceb9daa69b63f214697dd1902cfaaa12.html">
+            
+                    
+                    为项目作贡献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../fa469cbec35474fb1a8c2bcc7a965f78/a912723d01d00707f1f590de65838091.html">
+            
+                <a href="../fa469cbec35474fb1a8c2bcc7a965f78/a912723d01d00707f1f590de65838091.html">
+            
+                    
+                    项目的管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../fa469cbec35474fb1a8c2bcc7a965f78/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                <a href="../fa469cbec35474fb1a8c2bcc7a965f78/30f9e4a7f5b8cec98042d1015bf4c635.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../b71cee50e82413aeb78040ff34b9e8b6/">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/">
+            
+                    
+                    Git 工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../b71cee50e82413aeb78040ff34b9e8b6/396205adfe08dfb23597c077f641b541.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/396205adfe08dfb23597c077f641b541.html">
+            
+                    
+                    修订版本（Revision）选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html">
+            
+                    
+                    交互式暂存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
+            
+                    
+                    储藏（Stashing）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html">
+            
+                    
+                    重写历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../b71cee50e82413aeb78040ff34b9e8b6/13330b7efa9aa7411277539db0066194.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/13330b7efa9aa7411277539db0066194.html">
+            
+                    
+                    使用 Git 调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../b71cee50e82413aeb78040ff34b9e8b6/1184d08127b60aeacbcd54da317a7a71.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/1184d08127b60aeacbcd54da317a7a71.html">
+            
+                    
+                    子模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../b71cee50e82413aeb78040ff34b9e8b6/a4f6a96f087ae5e6e9a54276249fa6fa.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/a4f6a96f087ae5e6e9a54276249fa6fa.html">
+            
+                    
+                    子树合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../b71cee50e82413aeb78040ff34b9e8b6/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                <a href="../b71cee50e82413aeb78040ff34b9e8b6/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../ebe287b3a032c6834e132c70e914542a/">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/">
+            
+                    
+                    自定义 Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../ebe287b3a032c6834e132c70e914542a/a51ba62d15f75f85c23183477dd2b5ef.html">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/a51ba62d15f75f85c23183477dd2b5ef.html">
+            
+                    
+                    配置 Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../ebe287b3a032c6834e132c70e914542a/6b4467e3a325a8e93a09c79ae29d3a7a.html">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/6b4467e3a325a8e93a09c79ae29d3a7a.html">
+            
+                    
+                    Git属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../ebe287b3a032c6834e132c70e914542a/6bdb1e002b8356b94af7122fc78fb292.html">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/6bdb1e002b8356b94af7122fc78fb292.html">
+            
+                    
+                    Git挂钩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../ebe287b3a032c6834e132c70e914542a/aa39eb58c8a517ff8276bf09f92c2e17.html">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/aa39eb58c8a517ff8276bf09f92c2e17.html">
+            
+                    
+                    Git 强制策略实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../ebe287b3a032c6834e132c70e914542a/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                <a href="../ebe287b3a032c6834e132c70e914542a/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Git 与其他系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.9.1" data-path="ce9964b37e9170a45aa7d79c34eefa15.html">
+            
+                <a href="ce9964b37e9170a45aa7d79c34eefa15.html">
+            
+                    
+                    Git 与 Subversion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="243dee579e1958b7ef4eb4298c629637.html">
+            
+                <a href="243dee579e1958b7ef4eb4298c629637.html">
+            
+                    
+                    迁移到 Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                <a href="1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../eb04be8dd776142cd3fbb52e27694746/">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/">
+            
+                    
+                    Git 内部原理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
+            
+                    
+                    底层命令 (Plumbing) 和高层命令 (Porcelain)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../eb04be8dd776142cd3fbb52e27694746/65f65e0dde98528ec554e4540bb9b259.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/65f65e0dde98528ec554e4540bb9b259.html">
+            
+                    
+                    Git 对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../eb04be8dd776142cd3fbb52e27694746/92abc307328bd414f4cd589a4400994b.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/92abc307328bd414f4cd589a4400994b.html">
+            
+                    
+                    Git References
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../eb04be8dd776142cd3fbb52e27694746/04a88e273a78a3b979990d5be7cf7880.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/04a88e273a78a3b979990d5be7cf7880.html">
+            
+                    
+                    Packfiles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../eb04be8dd776142cd3fbb52e27694746/1e5b18c05b8003e44b020ecff76974c4.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/1e5b18c05b8003e44b020ecff76974c4.html">
+            
+                    
+                    The Refspec
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="../eb04be8dd776142cd3fbb52e27694746/ccb786f28dc36b65f45a70a45311367b.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/ccb786f28dc36b65f45a70a45311367b.html">
+            
+                    
+                    传输协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="../eb04be8dd776142cd3fbb52e27694746/d71c14108b781f14af2ed4bccfbce106.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/d71c14108b781f14af2ed4bccfbce106.html">
+            
+                    
+                    维护及数据恢复
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="../eb04be8dd776142cd3fbb52e27694746/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                <a href="../eb04be8dd776142cd3fbb52e27694746/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Git 与 Subversion</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="git-&#x4E0E;-subversion">Git &#x4E0E; Subversion</h1>
+<p>&#x5F53;&#x524D;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x4EE5;&#x53CA;&#x5927;&#x91CF;&#x7684;&#x5546;&#x4E1A;&#x9879;&#x76EE;&#x90FD;&#x4F7F;&#x7528; Subversion &#x6765;&#x7BA1;&#x7406;&#x6E90;&#x7801;&#x3002;&#x4F5C;&#x4E3A;&#x6700;&#x6D41;&#x884C;&#x7684;&#x5F00;&#x6E90;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF0C;Subversion &#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x4E86;&#x63A5;&#x8FD1;&#x5341;&#x5E74;&#x7684;&#x65F6;&#x95F4;&#x3002;&#x5B83;&#x5728;&#x8BB8;&#x591A;&#x65B9;&#x9762;&#x4E0E; CVS &#x5341;&#x5206;&#x7C7B;&#x4F3C;&#xFF0C;&#x540E;&#x8005;&#x662F;&#x524D;&#x8005;&#x51FA;&#x73B0;&#x4E4B;&#x524D;&#x4EE3;&#x7801;&#x63A7;&#x5236;&#x4E16;&#x754C;&#x7684;&#x9738;&#x4E3B;&#x3002;</p>
+<p>Git &#x6700;&#x4E3A;&#x91CD;&#x8981;&#x7684;&#x7279;&#x6027;&#x4E4B;&#x4E00;&#x662F;&#x540D;&#x4E3A; <code>git svn</code> &#x7684; Subversion &#x53CC;&#x5411;&#x6865;&#x63A5;&#x5DE5;&#x5177;&#x3002;&#x8BE5;&#x5DE5;&#x5177;&#x628A; Git &#x53D8;&#x6210;&#x4E86; Subversion &#x670D;&#x52A1;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;&#x4F60;&#x5728;&#x672C;&#x5730;&#x4EAB;&#x53D7;&#x5230; Git &#x6240;&#x6709;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x800C;&#x540E;&#x76F4;&#x63A5;&#x5411; Subversion &#x670D;&#x52A1;&#x5668;&#x63A8;&#x9001;&#x5185;&#x5BB9;&#xFF0C;&#x4EFF;&#x4F5B;&#x5728;&#x672C;&#x5730;&#x4F7F;&#x7528;&#x4E86; Subversion &#x5BA2;&#x6237;&#x7AEF;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x5728;&#x5176;&#x4ED6;&#x4EBA;&#x5FCD;&#x53D7;&#x53E4;&#x8463;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x672C;&#x5730;&#x4EAB;&#x53D7;&#x5206;&#x652F;&#x5408;&#x5E76;&#xFF0C;&#x4F7F;&#x6682;&#x5B58;&#x533A;&#x57DF;&#xFF0C;&#x884D;&#x5408;&#x4EE5;&#x53CA; &#x5355;&#x9879;&#x6311;&#x62E3;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x662F;&#x4E2A;&#x8BA9; Git &#x5077;&#x5077;&#x6F5C;&#x5165;&#x5408;&#x4F5C;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x7684;&#x597D;&#x4E1C;&#x897F;&#xFF0C;&#x5728;&#x5E2E;&#x52A9;&#x4F60;&#x7684;&#x5F00;&#x53D1;&#x540C;&#x4F34;&#x4EEC;&#x63D0;&#x9AD8;&#x6548;&#x7387;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x5B83;&#x8FD8;&#x80FD;&#x5E2E;&#x4F60;&#x529D;&#x8BF4;&#x56E2;&#x961F;&#x8BA9;&#x6574;&#x4E2A;&#x9879;&#x76EE;&#x6846;&#x67B6;&#x8F6C;&#x5411;&#x5BF9; Git &#x7684;&#x652F;&#x6301;&#x3002;&#x8FD9;&#x4E2A; Subversion &#x4E4B;&#x6865;&#x662F;&#x901A;&#x5411;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#xFF08;DVCS, Distributed VCS &#xFF09;&#x4E16;&#x754C;&#x7684;&#x795E;&#x5947;&#x96A7;&#x9053;&#x3002;</p>
+<h2 id="git-svn">git svn</h2>
+<p>Git &#x4E2D;&#x6240;&#x6709; Subversion &#x6865;&#x63A5;&#x547D;&#x4EE4;&#x7684;&#x57FA;&#x7840;&#x662F; <code>git svn</code> &#x3002;&#x6240;&#x6709;&#x7684;&#x547D;&#x4EE4;&#x90FD;&#x4ECE;&#x5B83;&#x5F00;&#x59CB;&#x3002;&#x76F8;&#x5173;&#x7684;&#x547D;&#x4EE4;&#x6570;&#x76EE;&#x4E0D;&#x5C11;&#xFF0C;&#x4F60;&#x5C06;&#x901A;&#x8FC7;&#x51E0;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x4E86;&#x89E3;&#x5230;&#x5176;&#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x4E00;&#x4E9B;&#x3002;</p>
+<p>&#x503C;&#x5F97;&#x8B66;&#x6212;&#x7684;&#x662F;&#xFF0C;&#x5728;&#x4F7F;&#x7528; <code>git svn</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x5B9E;&#x9645;&#x662F;&#x5728;&#x4E0E; Subversion &#x4EA4;&#x4E92;&#xFF0C;Git &#x6BD4;&#x5B83;&#x8981;&#x9AD8;&#x7EA7;&#x590D;&#x6742;&#x7684;&#x591A;&#x3002;&#x5C3D;&#x7BA1;&#x53EF;&#x4EE5;&#x5728;&#x672C;&#x5730;&#x968F;&#x610F;&#x7684;&#x8FDB;&#x884C;&#x5206;&#x652F;&#x548C;&#x5408;&#x5E76;&#xFF0C;&#x6700;&#x597D;&#x8FD8;&#x662F;&#x901A;&#x8FC7;&#x884D;&#x5408;&#x4FDD;&#x6301;&#x7EBF;&#x6027;&#x7684;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#xFF0C;&#x5C3D;&#x91CF;&#x907F;&#x514D;&#x7C7B;&#x4F3C;&#x4E0E;&#x8FDC;&#x7A0B; Git &#x4ED3;&#x5E93;&#x52A8;&#x6001;&#x4EA4;&#x4E92;&#x8FD9;&#x6837;&#x7684;&#x64CD;&#x4F5C;&#x3002;</p>
+<p>&#x907F;&#x514D;&#x4FEE;&#x6539;&#x5386;&#x53F2;&#x518D;&#x91CD;&#x65B0;&#x63A8;&#x9001;&#x7684;&#x505A;&#x6CD5;&#xFF0C;&#x4E5F;&#x4E0D;&#x8981;&#x540C;&#x65F6;&#x63A8;&#x9001;&#x5230;&#x5E76;&#x884C;&#x7684; Git &#x4ED3;&#x5E93;&#x6765;&#x8BD5;&#x56FE;&#x4E0E;&#x5176;&#x4ED6; Git &#x7528;&#x6237;&#x5408;&#x4F5C;&#x3002;Subersion &#x53EA;&#x80FD;&#x4FDD;&#x5B58;&#x5355;&#x4E00;&#x7684;&#x7EBF;&#x6027;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#xFF0C;&#x4E00;&#x4E0D;&#x5C0F;&#x5FC3;&#x5C31;&#x4F1A;&#x88AB;&#x641E;&#x7CCA;&#x6D82;&#x3002;&#x5408;&#x4F5C;&#x56E2;&#x961F;&#x4E2D;&#x540C;&#x65F6;&#x6709;&#x4EBA;&#x7528; SVN &#x548C; Git&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x786E;&#x4FDD;&#x6240;&#x6709;&#x4EBA;&#x90FD;&#x4F7F;&#x7528; SVN &#x670D;&#x52A1;&#x6765;&#x534F;&#x4F5C;&#x2014;&#x2014;&#x8FD9;&#x4F1A;&#x8BA9;&#x751F;&#x6D3B;&#x8F7B;&#x677E;&#x5F88;&#x591A;&#x3002;</p>
+<h2 id="&#x521D;&#x59CB;&#x8BBE;&#x5B9A;">&#x521D;&#x59CB;&#x8BBE;&#x5B9A;</h2>
+<p>&#x4E3A;&#x4E86;&#x5C55;&#x793A;&#x529F;&#x80FD;&#xFF0C;&#x5148;&#x8981;&#x4E00;&#x4E2A;&#x5177;&#x6709;&#x5199;&#x6743;&#x9650;&#x7684; SVN &#x4ED3;&#x5E93;&#x3002;&#x5982;&#x679C;&#x60F3;&#x5C1D;&#x8BD5;&#x8FD9;&#x4E2A;&#x8303;&#x4F8B;&#xFF0C;&#x4F60;&#x5FC5;&#x987B;&#x590D;&#x5236;&#x4E00;&#x4EFD;&#x5176;&#x4E2D;&#x7684;&#x6D4B;&#x8BD5;&#x4ED3;&#x5E93;&#x3002;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#x7684;&#x505A;&#x6CD5;&#x662F;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; <code>svnsync</code> &#x7684;&#x5DE5;&#x5177;&#x3002;&#x8F83;&#x65B0;&#x7684; Subversion &#x7248;&#x672C;&#x4E2D;&#x90FD;&#x5E26;&#x6709;&#x8BE5;&#x5DE5;&#x5177;&#xFF0C;&#x5B83;&#x5C06;&#x6570;&#x636E;&#x7F16;&#x7801;&#x4E3A;&#x7528;&#x4E8E;&#x7F51;&#x7EDC;&#x4F20;&#x8F93;&#x7684;&#x683C;&#x5F0F;&#x3002;</p>
+<p>&#x8981;&#x5C1D;&#x8BD5;&#x672C;&#x4F8B;&#xFF0C;&#x5148;&#x5728;&#x672C;&#x5730;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A; Subversion &#x4ED3;&#x5E93;&#xFF1A;</p>
+<pre><code>$ mkdir /tmp/test-svn
+$ svnadmin create /tmp/test-svn
+</code></pre><p>&#x7136;&#x540E;&#xFF0C;&#x5141;&#x8BB8;&#x6240;&#x6709;&#x7528;&#x6237;&#x4FEE;&#x6539; revprop &#x2014;&#x2014; &#x7B80;&#x5355;&#x7684;&#x505A;&#x6CD5;&#x662F;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x603B;&#x662F;&#x4EE5; 0 &#x4F5C;&#x4E3A;&#x8FD4;&#x56DE;&#x503C;&#x7684; pre-revprop-change &#x811A;&#x672C;&#xFF1A;</p>
+<pre><code>$ cat /tmp/test-svn/hooks/pre-revprop-change
+#!/bin/sh
+exit 0;
+$ chmod +x /tmp/test-svn/hooks/pre-revprop-change
+</code></pre><p>&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x8C03;&#x7528; <code>svnsync init</code> &#x52A0;&#x76EE;&#x6807;&#x4ED3;&#x5E93;&#xFF0C;&#x518D;&#x52A0;&#x6E90;&#x4ED3;&#x5E93;&#x7684;&#x683C;&#x5F0F;&#x6765;&#x628A;&#x8BE5;&#x9879;&#x76EE;&#x540C;&#x6B65;&#x5230;&#x672C;&#x5730;&#x4E86;&#xFF1A;</p>
+<pre><code>$ svnsync init file:///tmp/test-svn http://progit-example.googlecode.com/svn/
+</code></pre><p>&#x8FD9;&#x5C06;&#x5EFA;&#x7ACB;&#x8FDB;&#x884C;&#x540C;&#x6B65;&#x6240;&#x9700;&#x7684;&#x5C5E;&#x6027;&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x514B;&#x9686;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>$ svnsync sync file:///tmp/test-svn
+Committed revision 1.
+Copied properties for revision 1.
+Committed revision 2.
+Copied properties for revision 2.
+Committed revision 3.
+...
+</code></pre><p>&#x522B;&#x770B;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x53EA;&#x82B1;&#x6389;&#x51E0;&#x5206;&#x949F;&#xFF0C;&#x8981;&#x662F;&#x4F60;&#x60F3;&#x628A;&#x6E90;&#x4ED3;&#x5E93;&#x590D;&#x5236;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#xFF0C;&#x90A3;&#x5C06;&#x82B1;&#x6389;&#x63A5;&#x8FD1;&#x4E00;&#x4E2A;&#x5C0F;&#x65F6;&#xFF0C;&#x5C3D;&#x7BA1;&#x9879;&#x76EE;&#x4E2D;&#x53EA;&#x6709;&#x4E0D;&#x5230; 100 &#x6B21;&#x7684;&#x63D0;&#x4EA4;&#x3002; Subversion &#x6BCF;&#x6B21;&#x53EA;&#x590D;&#x5236;&#x4E00;&#x6B21;&#x4FEE;&#x6539;&#xFF0C;&#x628A;&#x5B83;&#x63A8;&#x9001;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;&#x91CC;&#xFF0C;&#x7136;&#x540E;&#x5468;&#x800C;&#x590D;&#x59CB;&#x2014;&#x2014;&#x60CA;&#x4EBA;&#x7684;&#x4F4E;&#x6548;&#xFF0C;&#x4F46;&#x662F;&#x6211;&#x4EEC;&#x522B;&#x65E0;&#x9009;&#x62E9;&#x3002;</p>
+<h2 id="&#x5165;&#x95E8;">&#x5165;&#x95E8;</h2>
+<p>&#x6709;&#x4E86;&#x53EF;&#x4EE5;&#x5199;&#x5165;&#x7684; Subversion &#x4ED3;&#x5E93;&#x4EE5;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x4E00;&#x4E0B;&#x5178;&#x578B;&#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x4E86;&#x3002;&#x6211;&#x4EEC;&#x4ECE; <code>git svn clone</code> &#x547D;&#x4EE4;&#x5F00;&#x59CB;&#xFF0C;&#x5B83;&#x4F1A;&#x628A;&#x6574;&#x4E2A; Subversion &#x4ED3;&#x5E93;&#x5BFC;&#x5165;&#x5230;&#x4E00;&#x4E2A;&#x672C;&#x5730;&#x7684; Git &#x4ED3;&#x5E93;&#x4E2D;&#x3002;&#x63D0;&#x9192;&#x4E00;&#x4E0B;&#xFF0C;&#x8FD9;&#x91CC;&#x5BFC;&#x5165;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x8D27;&#x771F;&#x4EF7;&#x5B9E;&#x7684; Subversion &#x4ED3;&#x5E93;&#xFF0C;&#x6240;&#x4EE5;&#x5E94;&#x8BE5;&#x628A;&#x4E0B;&#x9762;&#x7684; <code>file:///tmp/test-svn</code> &#x6362;&#x6210;&#x4F60;&#x6240;&#x7528;&#x7684; Subversion &#x4ED3;&#x5E93;&#x7684; URL&#xFF1A;</p>
+<pre><code>$ git svn clone file:///tmp/test-svn -T trunk -b branches -t tags
+Initialized empty Git repository in /Users/schacon/projects/testsvnsync/svn/.git/
+r1 = b4e387bc68740b5af56c2a5faf4003ae42bd135c (trunk)
+      A    m4/acx_pthread.m4
+      A    m4/stl_hash.m4
+...
+r75 = d1957f3b307922124eec6314e15bcda59e3d9610 (trunk)
+Found possible branch point: file:///tmp/test-svn/trunk =&gt; \
+    file:///tmp/test-svn /branches/my-calc-branch, 75
+Found branch parent: (my-calc-branch) d1957f3b307922124eec6314e15bcda59e3d9610
+Following parent with do_switch
+Successfully followed parent
+r76 = 8624824ecc0badd73f40ea2f01fce51894189b01 (my-calc-branch)
+Checked out HEAD:
+ file:///tmp/test-svn/branches/my-calc-branch r76
+</code></pre><p>&#x8FD9;&#x76F8;&#x5F53;&#x4E8E;&#x9488;&#x5BF9;&#x6240;&#x63D0;&#x4F9B;&#x7684; URL &#x8FD0;&#x884C;&#x4E86;&#x4E24;&#x6761;&#x547D;&#x4EE4;&#x2014;&#x2014; <code>git svn init</code> &#x52A0;&#x4E0A; <code>git svn fetch</code> &#x3002;&#x53EF;&#x80FD;&#x4F1A;&#x82B1;&#x4E0A;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x3002;&#x6211;&#x4EEC;&#x6240;&#x7528;&#x7684;&#x6D4B;&#x8BD5;&#x9879;&#x76EE;&#x4EC5;&#x4EC5;&#x5305;&#x542B; 75 &#x6B21;&#x63D0;&#x4EA4;&#x5E76;&#x4E14;&#x5B83;&#x7684;&#x4EE3;&#x7801;&#x91CF;&#x4E0D;&#x7B97;&#x5927;&#xFF0C;&#x6240;&#x4EE5;&#x53EA;&#x6709;&#x51E0;&#x5206;&#x949F;&#x800C;&#x5DF2;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;Git &#x4ECD;&#x7136;&#x9700;&#x8981;&#x63D0;&#x53D6;&#x6BCF;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#xFF0C;&#x6BCF;&#x6B21;&#x4E00;&#x4E2A;&#xFF0C;&#x518D;&#x9010;&#x4E2A;&#x63D0;&#x4EA4;&#x3002;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x6210;&#x767E;&#x4E0A;&#x5343;&#x6B21;&#x63D0;&#x4EA4;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x82B1;&#x6389;&#x7684;&#x65F6;&#x95F4;&#x5219;&#x53EF;&#x80FD;&#x662F;&#x51E0;&#x5C0F;&#x65F6;&#x751A;&#x81F3;&#x6570;&#x5929;&#x3002;</p>
+<p><code>-T trunk -b branches -t tags</code> &#x544A;&#x8BC9; Git &#x8BE5; Subversion &#x4ED3;&#x5E93;&#x9075;&#x5FAA;&#x4E86;&#x57FA;&#x672C;&#x7684;&#x5206;&#x652F;&#x548C;&#x6807;&#x7B7E;&#x547D;&#x540D;&#x6CD5;&#x5219;&#x3002;&#x5982;&#x679C;&#x4F60;&#x7684;&#x4E3B;&#x5E72;(&#x8BD1;&#x6CE8;&#xFF1A;trunk&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x975E;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x91CC;&#x7684;master&#x5206;&#x652F;&#xFF0C;&#x4EE3;&#x8868;&#x5F00;&#x53D1;&#x7684;&#x4E3B;&#x7EBF;&#xFF09;&#xFF0C;&#x5206;&#x652F;&#x6216;&#x8005;&#x6807;&#x7B7E;&#x4EE5;&#x4E0D;&#x540C;&#x7684;&#x65B9;&#x5F0F;&#x547D;&#x540D;&#xFF0C;&#x5219;&#x5E94;&#x505A;&#x51FA;&#x76F8;&#x5E94;&#x6539;&#x53D8;&#x3002;&#x7531;&#x4E8E;&#x8BE5;&#x6CD5;&#x5219;&#x7684;&#x5E38;&#x89C1;&#x6027;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>-s</code> &#x6765;&#x4EE3;&#x66FF;&#x6574;&#x6761;&#x547D;&#x4EE4;&#xFF0C;&#x5B83;&#x610F;&#x5473;&#x7740;&#x6807;&#x51C6;&#x5E03;&#x5C40;&#xFF08;s &#x662F; Standard layout &#x7684;&#x9996;&#x5B57;&#x6BCD;&#xFF09;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x524D;&#x9762;&#x9009;&#x9879;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x6709;&#x76F8;&#x540C;&#x7684;&#x6548;&#x679C;&#xFF1A;</p>
+<pre><code>$ git svn clone file:///tmp/test-svn -s
+</code></pre><p>&#x73B0;&#x5728;&#xFF0C;&#x4F60;&#x6709;&#x4E86;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684; Git &#x4ED3;&#x5E93;&#xFF0C;&#x5305;&#x542B;&#x7740;&#x5BFC;&#x5165;&#x7684;&#x5206;&#x652F;&#x548C;&#x6807;&#x7B7E;&#xFF1A;</p>
+<pre><code>$ git branch -a
+* master
+  my-calc-branch
+  tags/2.0.2
+  tags/release-2.0.1
+  tags/release-2.0.2
+  tags/release-2.0.2rc1
+  trunk
+</code></pre><p>&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x8BE5;&#x5DE5;&#x5177;&#x5206;&#x914D;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x65F6;&#x548C;&#x8FDC;&#x7A0B;&#x5F15;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x4E0D;&#x5C3D;&#x76F8;&#x540C;&#x3002;&#x514B;&#x9686;&#x666E;&#x901A;&#x7684; Git &#x4ED3;&#x5E93;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4EE5; <code>origin/[branch]</code> &#x7684;&#x5F62;&#x5F0F;&#x83B7;&#x53D6;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x6240;&#x6709;&#x53EF;&#x7528;&#x7684;&#x5206;&#x652F;&#x2014;&#x2014;&#x5206;&#x914D;&#x5230;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x7684;&#x540D;&#x79F0;&#x4E0B;&#x3002;&#x7136;&#x800C; <code>git svn</code> &#x5047;&#x5B9A;&#x4E0D;&#x5B58;&#x5728;&#x591A;&#x4E2A;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6240;&#x4EE5;&#x628A;&#x6240;&#x6709;&#x6307;&#x5411;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x7684;&#x5F15;&#x7528;&#x4E0D;&#x52A0;&#x533A;&#x5206;&#x7684;&#x4FDD;&#x5B58;&#x4E0B;&#x6765;&#x3002;&#x53EF;&#x4EE5;&#x7528; Git &#x63A2;&#x6D4B;&#x547D;&#x4EE4; <code>show-ref</code> &#x6765;&#x67E5;&#x770B;&#x6240;&#x6709;&#x5F15;&#x7528;&#x7684;&#x5168;&#x540D;&#x3002;</p>
+<pre><code>$ git show-ref
+1cbd4904d9982f386d87f88fce1c24ad7c0f0471 refs/heads/master
+aee1ecc26318164f355a883f5d99cff0c852d3c4 refs/remotes/my-calc-branch
+03d09b0e2aad427e34a6d50ff147128e76c0e0f5 refs/remotes/tags/2.0.2
+50d02cc0adc9da4319eeba0900430ba219b9c376 refs/remotes/tags/release-2.0.1
+4caaa711a50c77879a91b8b90380060f672745cb refs/remotes/tags/release-2.0.2
+1c4cb508144c513ff1214c3488abe66dcb92916f refs/remotes/tags/release-2.0.2rc1
+1cbd4904d9982f386d87f88fce1c24ad7c0f0471 refs/remotes/trunk
+</code></pre><p>&#x800C;&#x666E;&#x901A;&#x7684; Git &#x4ED3;&#x5E93;&#x5E94;&#x8BE5;&#x662F;&#x8FD9;&#x4E2A;&#x6A21;&#x6837;&#xFF1A;</p>
+<pre><code>$ git show-ref
+83e38c7a0af325a9722f2fdc56b10188806d83a1 refs/heads/master
+3e15e38c198baac84223acfc6224bb8b99ff2281 refs/remotes/gitserver/master
+0a30dd3b0c795b80212ae723640d4e5d48cabdff refs/remotes/origin/master
+25812380387fdd55f916652be4881c6f11600d6f refs/remotes/origin/testing
+</code></pre><p>&#x8FD9;&#x91CC;&#x6709;&#x4E24;&#x4E2A;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#xFF1A;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; <code>gitserver</code> &#xFF0C;&#x5177;&#x6709;&#x4E00;&#x4E2A; <code>master</code>&#x5206;&#x652F;&#xFF1B;&#x53E6;&#x4E00;&#x4E2A;&#x53EB; <code>origin</code>&#xFF0C;&#x5177;&#x6709; <code>master</code> &#x548C; <code>testing</code> &#x4E24;&#x4E2A;&#x5206;&#x652F;&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#x672C;&#x4F8B;&#x4E2D;&#x901A;&#x8FC7; <code>git svn</code> &#x5BFC;&#x5165;&#x7684;&#x8FDC;&#x7A0B;&#x5F15;&#x7528;&#xFF0C;&#xFF08;Subversion &#x7684;&#xFF09;&#x6807;&#x7B7E;&#x662F;&#x5F53;&#x4F5C;&#x8FDC;&#x7A0B;&#x5206;&#x652F;&#x6DFB;&#x52A0;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x771F;&#x6B63;&#x7684; Git &#x6807;&#x7B7E;&#x3002;&#x5BFC;&#x5165;&#x7684; Subversion &#x4ED3;&#x5E93;&#x4EFF;&#x4F5B;&#x662F;&#x6709;&#x4E00;&#x4E2A;&#x5E26;&#x6709;&#x4E0D;&#x540C;&#x5206;&#x652F;&#x7684; tags &#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x3002;</p>
+<h2 id="&#x63D0;&#x4EA4;&#x5230;-subversion">&#x63D0;&#x4EA4;&#x5230; Subversion</h2>
+<p>&#x6709;&#x4E86;&#x53EF;&#x4EE5;&#x5F00;&#x5C55;&#x5DE5;&#x4F5C;&#x7684;&#xFF08;&#x672C;&#x5730;&#xFF09;&#x4ED3;&#x5E93;&#x4EE5;&#x540E;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x5BF9;&#x8BE5;&#x9879;&#x76EE;&#x505A;&#x51FA;&#x8D21;&#x732E;&#x5E76;&#x5411;&#x4E0A;&#x6E38;&#x4ED3;&#x5E93;&#x63D0;&#x4EA4;&#x5185;&#x5BB9;&#x4E86;&#xFF0C;Git &#x8FD9;&#x65F6;&#x76F8;&#x5F53;&#x4E8E;&#x4E00;&#x4E2A; SVN &#x5BA2;&#x6237;&#x7AEF;&#x3002;&#x5047;&#x5982;&#x7F16;&#x8F91;&#x4E86;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5E76;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x6B21;&#x63D0;&#x4EA4;&#x4EC5;&#x5B58;&#x5728;&#x4E8E;&#x672C;&#x5730;&#x7684; Git &#x800C;&#x975E; Subversion &#x670D;&#x52A1;&#x5668;&#x4E0A;&#x3002;</p>
+<pre><code>$ git commit -am &apos;Adding git-svn instructions to the README&apos;
+[master 97031e5] Adding git-svn instructions to the README
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+</code></pre><p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x4F5C;&#x51FA;&#x7684;&#x4FEE;&#x6539;&#x63A8;&#x9001;&#x5230;&#x4E0A;&#x6E38;&#x3002;&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;Subversion &#x7684;&#x4F7F;&#x7528;&#x6D41;&#x7A0B;&#x4E5F;&#x56E0;&#x6B64;&#x6539;&#x53D8;&#x4E86;&#x2014;&#x2014;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x79BB;&#x7EBF;&#x72B6;&#x6001;&#x4E0B;&#x8FDB;&#x884C;&#x591A;&#x6B21;&#x63D0;&#x4EA4;&#x7136;&#x540E;&#x4E00;&#x6B21;&#x6027;&#x7684;&#x63A8;&#x9001;&#x5230; Subversion &#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x3002;&#x5411; Subversion &#x670D;&#x52A1;&#x5668;&#x63A8;&#x9001;&#x7684;&#x547D;&#x4EE4;&#x662F; <code>git svn dcommit</code>&#xFF1A;</p>
+<pre><code>$ git svn dcommit
+Committing to file:///tmp/test-svn/trunk ...
+       M      README.txt
+Committed r79
+       M      README.txt
+r79 = 938b1a547c2cc92033b74d32030e86468294a5c8 (trunk)
+No changes between current HEAD and refs/remotes/trunk
+Resetting to the latest refs/remotes/trunk
+</code></pre><p>&#x6240;&#x6709;&#x5728;&#x539F; Subversion &#x6570;&#x636E;&#x57FA;&#x7840;&#x4E0A;&#x63D0;&#x4EA4;&#x7684; commit &#x4F1A;&#x4E00;&#x4E00;&#x63D0;&#x4EA4;&#x5230; Subversion&#xFF0C;&#x7136;&#x540E;&#x4F60;&#x672C;&#x5730; Git &#x7684; commit &#x5C06;&#x88AB;&#x91CD;&#x5199;&#xFF0C;&#x52A0;&#x5165;&#x4E00;&#x4E2A;&#x7279;&#x522B;&#x6807;&#x8BC6;&#x3002;&#x8FD9;&#x4E00;&#x6B65;&#x5F88;&#x91CD;&#x8981;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x610F;&#x5473;&#x7740;&#x6240;&#x6709; commit &#x7684; SHA-1 &#x6307;&#x90FD;&#x4F1A;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x3002;&#x8FD9;&#x4E5F;&#x662F;&#x540C;&#x65F6;&#x4F7F;&#x7528; Git &#x548C; Subversion &#x4E24;&#x79CD;&#x670D;&#x52A1;&#x4F5C;&#x4E3A;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x4E0D;&#x662F;&#x4E2A;&#x597D;&#x4E3B;&#x610F;&#x7684;&#x539F;&#x56E0;&#x4E4B;&#x4E00;&#x3002;&#x68C0;&#x89C6;&#x4EE5;&#x4E0B;&#x6700;&#x540E;&#x4E00;&#x4E2A; commit&#xFF0C;&#x4F60;&#x4F1A;&#x627E;&#x5230;&#x65B0;&#x6DFB;&#x52A0;&#x7684; <code>git-svn-id</code> &#xFF08;&#x8BD1;&#x6CE8;&#xFF1A;&#x5373;&#x672C;&#x6BB5;&#x5F00;&#x5934;&#x6240;&#x8BF4;&#x7684;&#x7279;&#x522B;&#x6807;&#x8BC6;&#xFF09;&#xFF1A;</p>
+<pre><code>$ git log -1
+commit 938b1a547c2cc92033b74d32030e86468294a5c8
+Author: schacon &lt;schacon@4c93b258-373f-11de-be05-5f7a86268029&gt;
+Date:   Sat May 2 22:06:44 2009 +0000
+
+    Adding git-svn instructions to the README
+
+    git-svn-id: file:///tmp/test-svn/trunk@79 4c93b258-373f-11de-be05-5f7a86268029
+</code></pre><p>&#x6CE8;&#x610F;&#x770B;&#xFF0C;&#x539F;&#x672C;&#x4EE5; <code>97031e5</code> &#x5F00;&#x5934;&#x7684; SHA-1 &#x6821;&#x9A8C;&#x503C;&#x5728;&#x63D0;&#x4EA4;&#x5B8C;&#x6210;&#x4EE5;&#x540E;&#x53D8;&#x6210;&#x4E86; <code>938b1a5</code> &#x3002;&#x5982;&#x679C;&#x65E2;&#x8981;&#x5411; Git &#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x63A8;&#x9001;&#x5185;&#x5BB9;&#xFF0C;&#x53C8;&#x8981;&#x63A8;&#x9001;&#x5230; Subversion &#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5219;&#x5FC5;&#x987B;&#x5148;&#x5411; Subversion &#x63A8;&#x9001;&#xFF08;<code>dcommit</code>&#xFF09;&#xFF0C;&#x56E0;&#x4E3A;&#x8BE5;&#x64CD;&#x4F5C;&#x4F1A;&#x6539;&#x53D8;&#x6240;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;&#x5185;&#x5BB9;&#x3002;</p>
+<h2 id="&#x62C9;&#x53D6;&#x6700;&#x65B0;&#x8FDB;&#x5C55;">&#x62C9;&#x53D6;&#x6700;&#x65B0;&#x8FDB;&#x5C55;</h2>
+<p>&#x5982;&#x679C;&#x8981;&#x4E0E;&#x5176;&#x4ED6;&#x5F00;&#x53D1;&#x8005;&#x534F;&#x4F5C;&#xFF0C;&#x603B;&#x6709;&#x90A3;&#x4E48;&#x4E00;&#x5929;&#x4F60;&#x63A8;&#x9001;&#x5B8C;&#x6BD5;&#x4E4B;&#x540E;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x53D1;&#x73B0;&#x4ED6;&#x4EEC;&#x63A8;&#x9001;&#x81EA;&#x5DF1;&#x4FEE;&#x6539;&#x7684;&#x65F6;&#x5019;&#xFF08;&#x4E0E;&#x4F60;&#x63A8;&#x9001;&#x7684;&#x5185;&#x5BB9;&#xFF09;&#x4EA7;&#x751F;&#x51B2;&#x7A81;&#x3002;&#x8FD9;&#x4E9B;&#x4FEE;&#x6539;&#x5728;&#x4F60;&#x5408;&#x5E76;&#x4E4B;&#x524D;&#x5C06;&#x4E00;&#x76F4;&#x88AB;&#x62D2;&#x7EDD;&#x3002;&#x5728; <code>git svn</code> &#x91CC;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x5F62;&#x4F3C;&#xFF1A;</p>
+<pre><code>$ git svn dcommit
+Committing to file:///tmp/test-svn/trunk ...
+Merge conflict during commit: Your file or directory &apos;README.txt&apos; is probably \
+out-of-date: resource out of date; try updating at /Users/schacon/libexec/git-\
+core/git-svn line 482
+</code></pre><p>&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x8BE5;&#x95EE;&#x9898;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD0;&#x884C; <code>git svn rebase</code> &#xFF0C;&#x5B83;&#x4F1A;&#x62C9;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x6240;&#x6709;&#x6700;&#x65B0;&#x7684;&#x6539;&#x53D8;&#xFF0C;&#x518D;&#x6B21;&#x57FA;&#x7840;&#x4E0A;&#x884D;&#x5408;&#x4F60;&#x7684;&#x4FEE;&#x6539;&#xFF1A;</p>
+<pre><code>$ git svn rebase
+       M      README.txt
+r80 = ff829ab914e8775c7c025d741beb3d523ee30bc4 (trunk)
+First, rewinding head to replay your work on top of it...
+Applying: first user change
+</code></pre><p>&#x73B0;&#x5728;&#xFF0C;&#x4F60;&#x505A;&#x51FA;&#x7684;&#x4FEE;&#x6539;&#x90FD;&#x53D1;&#x751F;&#x5728;&#x670D;&#x52A1;&#x5668;&#x5185;&#x5BB9;&#x4E4B;&#x540E;&#xFF0C;&#x6240;&#x4EE5;&#x53EF;&#x4EE5;&#x987A;&#x5229;&#x7684;&#x8FD0;&#x884C; <code>dcommit</code> &#xFF1A;</p>
+<pre><code>$ git svn dcommit
+Committing to file:///tmp/test-svn/trunk ...
+       M      README.txt
+Committed r81
+       M      README.txt
+r81 = 456cbe6337abe49154db70106d1836bc1332deed (trunk)
+No changes between current HEAD and refs/remotes/trunk
+Resetting to the latest refs/remotes/trunk
+</code></pre><p>&#x9700;&#x8981;&#x7262;&#x8BB0;&#x7684;&#x4E00;&#x70B9;&#x662F;&#xFF0C;Git &#x8981;&#x6C42;&#x6211;&#x4EEC;&#x5728;&#x63A8;&#x9001;&#x4E4B;&#x524D;&#x5148;&#x5408;&#x5E76;&#x4E0A;&#x6E38;&#x4ED3;&#x5E93;&#x4E2D;&#x6700;&#x65B0;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x800C; <code>git svn</code> &#x53EA;&#x8981;&#x6C42;&#x5B58;&#x5728;&#x51B2;&#x7A81;&#x7684;&#x65F6;&#x5019;&#x624D;&#x8FD9;&#x6837;&#x505A;&#x3002;&#x5047;&#x5982;&#x6709;&#x4EBA;&#x5411;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x63A8;&#x9001;&#x4E86;&#x4E00;&#x4E9B;&#x4FEE;&#x6539;&#xFF0C;&#x8FD9;&#x65F6;&#x4F60;&#x8981;&#x5411;&#x53E6;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x63A8;&#x9001;&#x4E00;&#x4E9B;&#x4FEE;&#x6539;&#xFF0C;&#x90A3;&#x4E48; <code>dcommit</code> &#x5C06;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#xFF1A;</p>
+<pre><code>$ git svn dcommit
+Committing to file:///tmp/test-svn/trunk ...
+       M      configure.ac
+Committed r84
+       M      autogen.sh
+r83 = 8aa54a74d452f82eee10076ab2584c1fc424853b (trunk)
+       M      configure.ac
+r84 = cdbac939211ccb18aa744e581e46563af5d962d0 (trunk)
+W: d2f23b80f67aaaa1f6f5aaef48fce3263ac71a92 and refs/remotes/trunk differ, \
+  using rebase:
+:100755 100755 efa5a59965fbbb5b2b0a12890f1b351bb5493c18 \
+  015e4c98c482f0fa71e4d5434338014530b37fa6 M   autogen.sh
+First, rewinding head to replay your work on top of it...
+Nothing to do.
+</code></pre><p>&#x8FD9;&#x4E00;&#x70B9;&#x9700;&#x8981;&#x7262;&#x8BB0;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x63A8;&#x9001;&#x4E4B;&#x540E;&#x9879;&#x76EE;&#x5904;&#x4E8E;&#x4E00;&#x4E2A;&#x4E0D;&#x5B8C;&#x6574;&#x5B58;&#x5728;&#x4E0E;&#x4EFB;&#x4F55;&#x4E3B;&#x673A;&#x4E0A;&#x7684;&#x72B6;&#x6001;&#x3002;&#x5982;&#x679C;&#x505A;&#x51FA;&#x7684;&#x4FEE;&#x6539;&#x65E0;&#x6CD5;&#x517C;&#x5BB9;&#x4F46;&#x6CA1;&#x6709;&#x4EA7;&#x751F;&#x51B2;&#x7A81;&#xFF0C;&#x5219;&#x53EF;&#x80FD;&#x9020;&#x6210;&#x4E00;&#x4E9B;&#x5F88;&#x96BE;&#x786E;&#x8BCA;&#x7684;&#x96BE;&#x9898;&#x3002;&#x8FD9;&#x548C;&#x4F7F;&#x7528; Git &#x670D;&#x52A1;&#x5668;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x2014;&#x2014;&#x5728; Git &#x4E16;&#x754C;&#x91CC;&#xFF0C;&#x53D1;&#x5E03;&#x4E4B;&#x524D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x7CFB;&#x7EDF;&#x91CC;&#x5B8C;&#x6574;&#x7684;&#x6D4B;&#x8BD5;&#x9879;&#x76EE;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x800C;&#x5728; SVN &#x6C38;&#x8FDC;&#x90FD;&#x6CA1;&#x6CD5;&#x786E;&#x4FDD;&#x63D0;&#x4EA4;&#x524D;&#x540E;&#x9879;&#x76EE;&#x7684;&#x72B6;&#x6001;&#x5B8C;&#x5168;&#x4E00;&#x6837;&#x3002;</p>
+<p>&#x5373;&#x4F7F;&#x8FD8;&#x6CA1;&#x6253;&#x7B97;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;&#xFF0C;&#x4F60;&#x4E5F;&#x5E94;&#x8BE5;&#x7528;&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x4ECE; Subversion &#x670D;&#x52A1;&#x5668;&#x62C9;&#x53D6;&#x6700;&#x65B0;&#x4FEE;&#x6539;&#x3002;<code>sit svn fetch</code> &#x80FD;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x4E0D;&#x8FC7; <code>git svn rebase</code> &#x624D;&#x4F1A;&#x5728;&#x83B7;&#x53D6;&#x4E4B;&#x540E;&#x5728;&#x672C;&#x5730;&#x8FDB;&#x884C;&#x66F4;&#x65B0; &#x3002;</p>
+<pre><code>$ git svn rebase
+       M      generate_descriptor_proto.sh
+r82 = bd16df9173e424c6f52c337ab6efa7f7643282f1 (trunk)
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to refs/remotes/trunk.
+</code></pre><p>&#x4E0D;&#x65F6;&#x5730;&#x8FD0;&#x884C;&#x4E00;&#x4E0B; <code>git svn rebase</code> &#x53EF;&#x4EE5;&#x786E;&#x4FDD;&#x4F60;&#x7684;&#x4EE3;&#x7801;&#x6CA1;&#x6709;&#x8FC7;&#x65F6;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x8FD0;&#x884C;&#x8BE5;&#x547D;&#x4EE4;&#x65F6;&#x9700;&#x8981;&#x786E;&#x4FDD;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#x7684;&#x6574;&#x6D01;&#x3002;&#x5982;&#x679C;&#x5728;&#x672C;&#x5730;&#x505A;&#x4E86;&#x4FEE;&#x6539;&#xFF0C;&#x5219;&#x5FC5;&#x987B;&#x5728;&#x8FD0;&#x884C; <code>git svn rebase</code> &#x4E4B;&#x524D;&#x6216;&#x6682;&#x5B58;&#x5DE5;&#x4F5C;&#xFF0C;&#x6216;&#x6682;&#x65F6;&#x63D0;&#x4EA4;&#x5185;&#x5BB9;&#x2014;&#x2014;&#x5426;&#x5219;&#xFF0C;&#x8BE5;&#x547D;&#x4EE4;&#x4F1A;&#x53D1;&#x73B0;&#x884D;&#x5408;&#x7684;&#x7ED3;&#x679C;&#x5305;&#x542B;&#x7740;&#x51B2;&#x7A81;&#x56E0;&#x800C;&#x7EC8;&#x6B62;&#x3002;</p>
+<h2 id="git-&#x5206;&#x652F;&#x95EE;&#x9898;">Git &#x5206;&#x652F;&#x95EE;&#x9898;</h2>
+<p>&#x4E60;&#x60EF;&#x4E86; Git &#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#x4EE5;&#x540E;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E9B;&#x7279;&#x6027;&#x5206;&#x652F;&#xFF0C;&#x5B8C;&#x6210;&#x76F8;&#x5173;&#x7684;&#x5F00;&#x53D1;&#x5DE5;&#x4F5C;&#xFF0C;&#x7136;&#x540E;&#x5408;&#x5E76;&#x4ED6;&#x4EEC;&#x3002;&#x5982;&#x679C;&#x8981;&#x7528; git svn &#x5411; Subversion &#x63A8;&#x9001;&#x5185;&#x5BB9;&#xFF0C;&#x90A3;&#x4E48;&#x6700;&#x597D;&#x662F;&#x6BCF;&#x6B21;&#x7528;&#x884D;&#x5408;&#x6765;&#x5E76;&#x5165;&#x4E00;&#x4E2A;&#x5355;&#x4E00;&#x5206;&#x652F;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x76F4;&#x63A5;&#x5408;&#x5E76;&#x3002;&#x4F7F;&#x7528;&#x884D;&#x5408;&#x7684;&#x539F;&#x56E0;&#x662F; Subversion &#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x7EBF;&#x6027;&#x7684;&#x5386;&#x53F2;&#x800C;&#x4E0D;&#x50CF; Git &#x90A3;&#x6837;&#x5904;&#x7406;&#x5408;&#x5E76;&#xFF0C;&#x6240;&#x4EE5; Git svn &#x5728;&#x628A;&#x5FEB;&#x7167;&#x8F6C;&#x6362;&#x4E3A; Subversion &#x7684; commit &#x65F6;&#x53EA;&#x80FD;&#x5305;&#x542B;&#x7B2C;&#x4E00;&#x4E2A;&#x7956;&#x5148;&#x3002;</p>
+<p>&#x5047;&#x8BBE;&#x5206;&#x652F;&#x5386;&#x53F2;&#x5982;&#x4E0B;&#xFF1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A; <code>experiment</code> &#x5206;&#x652F;&#xFF0C;&#x8FDB;&#x884C;&#x4E24;&#x6B21;&#x63D0;&#x4EA4;&#xFF0C;&#x7136;&#x540E;&#x5408;&#x5E76;&#x5230; <code>master</code> &#x3002;&#x5728; <code>dcommit</code> &#x7684;&#x65F6;&#x5019;&#x4F1A;&#x5F97;&#x5230;&#x5982;&#x4E0B;&#x8F93;&#x51FA;&#xFF1A;</p>
+<pre><code>$ git svn dcommit
+Committing to file:///tmp/test-svn/trunk ...
+       M      CHANGES.txt
+Committed r85
+       M      CHANGES.txt
+r85 = 4bfebeec434d156c36f2bcd18f4e3d97dc3269a2 (trunk)
+No changes between current HEAD and refs/remotes/trunk
+Resetting to the latest refs/remotes/trunk
+COPYING.txt: locally modified
+INSTALL.txt: locally modified
+       M      COPYING.txt
+       M      INSTALL.txt
+Committed r86
+       M      INSTALL.txt
+       M      COPYING.txt
+r86 = 2647f6b86ccfcaad4ec58c520e369ec81f7c283c (trunk)
+No changes between current HEAD and refs/remotes/trunk
+Resetting to the latest refs/remotes/trunk
+</code></pre><p>&#x5728;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x4E86;&#x5408;&#x5E76;&#x5386;&#x53F2;&#x7684;&#x5206;&#x652F;&#x4E0A;&#x4F7F;&#x7528; <code>dcommit</code> &#x53EF;&#x4EE5;&#x6210;&#x529F;&#x8FD0;&#x884C;&#xFF0C;&#x4E0D;&#x8FC7;&#x5728; Git &#x9879;&#x76EE;&#x7684;&#x5386;&#x53F2;&#x4E2D;&#xFF0C;&#x5B83;&#x6CA1;&#x6709;&#x91CD;&#x5199;&#x4F60;&#x5728; <code>experiment</code> &#x5206;&#x652F;&#x4E2D;&#x7684;&#x4E24;&#x4E2A; commit &#x2014;&#x2014;&#x53E6;&#x4E00;&#x65B9;&#x9762;&#xFF0C;&#x8FD9;&#x4E9B;&#x6539;&#x53D8;&#x5374;&#x51FA;&#x73B0;&#x5728;&#x4E86; SVN &#x7248;&#x672C;&#x4E2D;&#x540C;&#x4E00;&#x4E2A;&#x5408;&#x5E76; commit &#x4E2D;&#x3002;</p>
+<p>&#x5728;&#x522B;&#x4EBA;&#x514B;&#x9686;&#x8BE5;&#x9879;&#x76EE;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EA;&#x80FD;&#x770B;&#x5230;&#x8FD9;&#x4E2A;&#x5408;&#x5E76; commit &#x5305;&#x542B;&#x4E86;&#x6240;&#x6709;&#x53D1;&#x751F;&#x8FC7;&#x7684;&#x4FEE;&#x6539;&#xFF1B;&#x4ED6;&#x4EEC;&#x65E0;&#x6CD5;&#x83B7;&#x77E5;&#x4FEE;&#x6539;&#x7684;&#x4F5C;&#x8005;&#x548C;&#x65F6;&#x95F4;&#x7B49;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x3002;</p>
+<h2 id="subversion-&#x5206;&#x652F;">Subversion &#x5206;&#x652F;</h2>
+<p>Subversion &#x7684;&#x5206;&#x652F;&#x548C; Git &#x4E2D;&#x7684;&#x4E0D;&#x5C3D;&#x76F8;&#x540C;&#xFF1B;&#x907F;&#x514D;&#x8FC7;&#x591A;&#x7684;&#x4F7F;&#x7528;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x597D;&#x65B9;&#x6848;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x7528; git svn &#x521B;&#x5EFA;&#x548C;&#x63D0;&#x4EA4;&#x4E0D;&#x540C;&#x7684; Subversion &#x5206;&#x652F;&#x4ECD;&#x662F;&#x53EF;&#x884C;&#x7684;&#x3002;</p>
+<h3 id="&#x521B;&#x5EFA;&#x65B0;&#x7684;-svn-&#x5206;&#x652F;">&#x521B;&#x5EFA;&#x65B0;&#x7684; SVN &#x5206;&#x652F;</h3>
+<p>&#x8981;&#x5728; Subversion &#x4E2D;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x65B0;&#x5206;&#x652F;&#xFF0C;&#x9700;&#x8981;&#x8FD0;&#x884C; <code>git svn branch [&#x5206;&#x652F;&#x540D;]</code> &#xFF1A;</p>
+<pre><code>$ git svn branch opera
+Copying file:///tmp/test-svn/trunk at r87 to file:///tmp/test-svn/branches/opera...
+Found possible branch point: file:///tmp/test-svn/trunk =&gt; \
+  file:///tmp/test-svn/branches/opera, 87
+Found branch parent: (opera) 1f6bfe471083cbca06ac8d4176f7ad4de0d62e5f
+Following parent with do_switch
+Successfully followed parent
+r89 = 9b6fe0b90c5c9adf9165f700897518dbc54a7cbf (opera)
+</code></pre><p>&#x8FD9;&#x76F8;&#x5F53;&#x4E8E;&#x5728; Subversion &#x4E2D;&#x7684; <code>svn copy trunk branches/opera</code> &#x547D;&#x4EE4;&#xFF0C;&#x5E76;&#x4F1A;&#x5BF9; Subversion &#x670D;&#x52A1;&#x5668;&#x8FDB;&#x884C;&#x76F8;&#x5173;&#x64CD;&#x4F5C;&#x3002;&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x5B83;&#x6CA1;&#x6709;&#x68C0;&#x51FA;&#x548C;&#x8F6C;&#x6362;&#x5230;&#x90A3;&#x4E2A;&#x5206;&#x652F;&#xFF1B;&#x5982;&#x679C;&#x73B0;&#x5728;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;&#xFF0C;&#x5C06;&#x63D0;&#x4EA4;&#x5230;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684; <code>trunk</code>&#xFF0C; &#x800C;&#x975E; <code>opera</code>&#x3002;</p>
+<h2 id="&#x5207;&#x6362;&#x5F53;&#x524D;&#x5206;&#x652F;">&#x5207;&#x6362;&#x5F53;&#x524D;&#x5206;&#x652F;</h2>
+<p>Git &#x901A;&#x8FC7;&#x641C;&#x5BFB;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#x4E2D; Subversion &#x5206;&#x652F;&#x7684;&#x5934;&#x90E8;&#x6765;&#x51B3;&#x5B9A; dcommit &#x7684;&#x76EE;&#x7684;&#x5730;&#x2014;&#x2014;&#x800C;&#x5B83;&#x5E94;&#x8BE5;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x5F53;&#x524D;&#x5206;&#x652F;&#x5386;&#x53F2;&#x4E2D;&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x5305;&#x542B; <code>git-svn-id</code> &#x7684;&#x63D0;&#x4EA4;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x9700;&#x8981;&#x540C;&#x65F6;&#x5728;&#x591A;&#x4E2A;&#x5206;&#x652F;&#x4E0A;&#x63D0;&#x4EA4;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5BFC;&#x5165; Subversion &#x4E0A;&#x67D0;&#x4E2A;&#x5176;&#x4ED6;&#x5206;&#x652F;&#x7684; commit &#x6765;&#x5EFA;&#x7ACB;&#x4EE5;&#x8BE5;&#x5206;&#x652F;&#x4E3A; <code>dcommit</code> &#x76EE;&#x7684;&#x5730;&#x7684;&#x672C;&#x5730;&#x5206;&#x652F;&#x3002;&#x6BD4;&#x5982;&#x4F60;&#x60F3;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x5E76;&#x884C;&#x7EF4;&#x62A4;&#x7684; <code>opera</code> &#x5206;&#x652F;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;</p>
+<pre><code>$ git branch opera remotes/opera
+</code></pre><p>&#x7136;&#x540E;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x628A; <code>opera</code> &#x5206;&#x652F;&#x5E76;&#x5165; <code>trunk</code> &#xFF08;&#x672C;&#x5730;&#x7684; <code>master</code> &#x5206;&#x652F;&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x666E;&#x901A;&#x7684; <code>git merge</code>&#x3002;&#x4E0D;&#x8FC7;&#x6700;&#x597D;&#x63D0;&#x4F9B;&#x4E00;&#x6761;&#x63CF;&#x8FF0;&#x63D0;&#x4EA4;&#x7684;&#x4FE1;&#x606F;&#xFF08;&#x901A;&#x8FC7; <code>-m</code>&#xFF09;&#xFF0C;&#x5426;&#x5219;&#x8FD9;&#x6B21;&#x5408;&#x5E76;&#x7684;&#x8BB0;&#x5F55;&#x662F; <code>Merge branch opera</code> &#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x4EFB;&#x4F55;&#x6709;&#x7528;&#x7684;&#x4E1C;&#x897F;&#x3002;</p>
+<p>&#x8BB0;&#x4F4F;&#xFF0C;&#x867D;&#x7136;&#x4F7F;&#x7528;&#x4E86; <code>git merge</code> &#x6765;&#x8FDB;&#x884C;&#x8FD9;&#x6B21;&#x64CD;&#x4F5C;&#xFF0C;&#x5E76;&#x4E14;&#x5408;&#x5E76;&#x8FC7;&#x7A0B;&#x53EF;&#x80FD;&#x6BD4;&#x4F7F;&#x7528; Subversion &#x7B80;&#x5355;&#x4E00;&#x4E9B;&#xFF08;&#x56E0;&#x4E3A; Git &#x4F1A;&#x81EA;&#x52A8;&#x627E;&#x5230;&#x9002;&#x5408;&#x7684;&#x5408;&#x5E76;&#x57FA;&#x7840;&#xFF09;&#xFF0C;&#x8FD9;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x6B21;&#x666E;&#x901A;&#x7684; Git &#x5408;&#x5E76;&#x63D0;&#x4EA4;&#x3002;&#x6700;&#x7EC8;&#x5B83;&#x5C06;&#x88AB;&#x63A8;&#x9001;&#x56DE; commit &#x65E0;&#x6CD5;&#x5305;&#x542B;&#x591A;&#x4E2A;&#x7956;&#x5148;&#x7684; Subversion &#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF1B;&#x56E0;&#x800C;&#x5728;&#x63A8;&#x9001;&#x4E4B;&#x540E;&#xFF0C;&#x5B83;&#x5C06;&#x53D8;&#x6210;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x4E86;&#x6240;&#x6709;&#x5728;&#x5176;&#x4ED6;&#x5206;&#x652F;&#x4E0A;&#x505A;&#x51FA;&#x7684;&#x6539;&#x53D8;&#x7684;&#x5355;&#x4E00; commit&#x3002;&#x628A;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#x5408;&#x5E76;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#x4EE5;&#x540E;&#xFF0C;&#x4F60;&#x6CA1;&#x6CD5;&#x50CF;&#x5728; Git &#x4E2D;&#x90A3;&#x6837;&#x8F7B;&#x6613;&#x7684;&#x56DE;&#x5230;&#x90A3;&#x4E2A;&#x5206;&#x652F;&#x4E0A;&#x7EE7;&#x7EED;&#x5DE5;&#x4F5C;&#x3002;&#x63D0;&#x4EA4;&#x65F6;&#x8FD0;&#x884C;&#x7684; <code>dcommit</code> &#x547D;&#x4EE4;&#x64E6;&#x9664;&#x4E86;&#x5168;&#x90E8;&#x6709;&#x5173;&#x54EA;&#x4E2A;&#x5206;&#x652F;&#x88AB;&#x5E76;&#x5165;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x56E0;&#x800C;&#x4EE5;&#x540E;&#x7684;&#x5408;&#x5E76;&#x57FA;&#x7840;&#x8BA1;&#x7B97;&#x5C06;&#x662F;&#x4E0D;&#x6B63;&#x786E;&#x7684;&#x2014;&#x2014; dcommit &#x8BA9; <code>git merge</code> &#x7684;&#x7ED3;&#x679C;&#x53D8;&#x5F97;&#x7C7B;&#x4F3C;&#x4E8E; <code>git merge --squash</code>&#x3002;&#x4E0D;&#x5E78;&#x7684;&#x662F;&#xFF0C;&#x6211;&#x4EEC;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x597D;&#x529E;&#x6CD5;&#x6765;&#x907F;&#x514D;&#x8BE5;&#x60C5;&#x51B5;&#x2014;&#x2014; Subversion &#x65E0;&#x6CD5;&#x50A8;&#x5B58;&#x8FD9;&#x4E2A;&#x4FE1;&#x606F;&#xFF0C;&#x6240;&#x4EE5;&#x5728;&#x4F7F;&#x7528;&#x5B83;&#x4F5C;&#x4E3A;&#x670D;&#x52A1;&#x5668;&#x7684;&#x65F6;&#x5019;&#x4F60;&#x5C06;&#x6C38;&#x8FDC;&#x4E3A;&#x8FD9;&#x4E2A;&#x7F3A;&#x9677;&#x6240;&#x56F0;&#x3002;&#x4E3A;&#x4E86;&#x4E0D;&#x51FA;&#x73B0;&#x8FD9;&#x79CD;&#x95EE;&#x9898;&#xFF0C;&#x5728;&#x628A;&#x672C;&#x5730;&#x5206;&#x652F;&#xFF08;&#x672C;&#x4F8B;&#x4E2D;&#x7684; <code>opera</code>&#xFF09;&#x5E76;&#x5165; trunk &#x4EE5;&#x540E;&#x5E94;&#x8BE5;&#x7ACB;&#x5373;&#x5C06;&#x5176;&#x5220;&#x9664;&#x3002;</p>
+<h2 id="&#x5BF9;&#x5E94;-subversion-&#x7684;&#x547D;&#x4EE4;">&#x5BF9;&#x5E94; Subversion &#x7684;&#x547D;&#x4EE4;</h2>
+<p><code>git svn</code> &#x5DE5;&#x5177;&#x96C6;&#x5408;&#x4E86;&#x82E5;&#x5E72;&#x4E2A;&#x4E0E; Subversion &#x7C7B;&#x4F3C;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5BF9;&#x5E94;&#x7684;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x7B80;&#x5316;&#x5411; Git &#x7684;&#x8F6C;&#x5316;&#x8FC7;&#x7A0B;&#x3002;&#x4E0B;&#x9762;&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x80FD;&#x5B9E;&#x73B0; Subversion &#x7684;&#x8FD9;&#x4E9B;&#x529F;&#x80FD;&#x3002;</p>
+<h3 id="svn-&#x98CE;&#x683C;&#x7684;&#x5386;&#x53F2;">SVN &#x98CE;&#x683C;&#x7684;&#x5386;&#x53F2;</h3>
+<p>&#x4E60;&#x60EF;&#x4E86; Subversion &#x7684;&#x4EBA;&#x53EF;&#x80FD;&#x60F3;&#x4EE5; SVN &#x7684;&#x98CE;&#x683C;&#x663E;&#x793A;&#x5386;&#x53F2;&#xFF0C;&#x8FD0;&#x884C; <code>git svn log</code>  &#x53EF;&#x4EE5;&#x8BA9;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#x663E;&#x793A;&#x4E3A; SVN &#x683C;&#x5F0F;&#xFF1A;</p>
+<pre><code>$ git svn log
+------------------------------------------------------------------------
+r87 | schacon | 2009-05-02 16:07:37 -0700 (Sat, 02 May 2009) | 2 lines
+
+autogen change
+
+------------------------------------------------------------------------
+r86 | schacon | 2009-05-02 16:00:21 -0700 (Sat, 02 May 2009) | 2 lines
+
+Merge branch &apos;experiment&apos;
+
+------------------------------------------------------------------------
+r85 | schacon | 2009-05-02 16:00:09 -0700 (Sat, 02 May 2009) | 2 lines
+
+updated the changelog
+</code></pre><p>&#x5173;&#x4E8E; <code>git svn log</code> &#xFF0C;&#x6709;&#x4E24;&#x70B9;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x3002;&#x9996;&#x5148;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x79BB;&#x7EBF;&#x5DE5;&#x4F5C;&#xFF0C;&#x4E0D;&#x50CF; <code>svn log</code> &#x547D;&#x4EE4;&#xFF0C;&#x9700;&#x8981;&#x5411; Subversion &#x670D;&#x52A1;&#x5668;&#x7D22;&#x53D6;&#x6570;&#x636E;&#x3002;&#x5176;&#x6B21;&#xFF0C;&#x5B83;&#x4EC5;&#x4EC5;&#x663E;&#x793A;&#x5DF2;&#x7ECF;&#x63D0;&#x4EA4;&#x5230; Subversion &#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684; commit&#x3002;&#x5728;&#x672C;&#x5730;&#x5C1A;&#x672A; dcommit &#x7684; Git &#x6570;&#x636E;&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x5728;&#x8FD9;&#x91CC;&#xFF1B;&#x5176;&#x4ED6;&#x4EBA;&#x5411; Subversion &#x670D;&#x52A1;&#x5668;&#x65B0;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;&#x4E5F;&#x4E0D;&#x4F1A;&#x663E;&#x793A;&#x3002;&#x7B49;&#x4E8E;&#x8BF4;&#x662F;&#x663E;&#x793A;&#x4E86;&#x6700;&#x8FD1;&#x5DF2;&#x77E5; Subversion &#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x72B6;&#x6001;&#x3002;</p>
+<h3 id="svn-&#x65E5;&#x5FD7;">SVN &#x65E5;&#x5FD7;</h3>
+<p>&#x7C7B;&#x4F3C; <code>git svn log</code> &#x5BF9; <code>git log</code> &#x7684;&#x6A21;&#x62DF;&#xFF0C;<code>svn annotate</code> &#x7684;&#x7B49;&#x6548;&#x547D;&#x4EE4;&#x662F; <code>git svn blame [&#x6587;&#x4EF6;&#x540D;]</code>&#x3002;&#x5176;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>$ git svn blame README.txt
+ 2   temporal Protocol Buffers - Google&apos;s data interchange format
+ 2   temporal Copyright 2008 Google Inc.
+ 2   temporal http://code.google.com/apis/protocolbuffers/
+ 2   temporal
+22   temporal C++ Installation - Unix
+22   temporal =======================
+ 2   temporal
+79    schacon Committing in git-svn.
+78    schacon
+ 2   temporal To build and install the C++ Protocol Buffer runtime and the Protocol
+ 2   temporal Buffer compiler (protoc) execute the following:
+ 2   temporal
+</code></pre><p>&#x540C;&#x6837;&#xFF0C;&#x5B83;&#x4E0D;&#x663E;&#x793A;&#x672C;&#x5730;&#x7684; Git &#x63D0;&#x4EA4;&#x4EE5;&#x53CA; Subversion &#x4E0A;&#x540E;&#x6765;&#x66F4;&#x65B0;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<h3 id="svn-&#x670D;&#x52A1;&#x5668;&#x4FE1;&#x606F;">SVN &#x670D;&#x52A1;&#x5668;&#x4FE1;&#x606F;</h3>
+<p>&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>git svn info</code> &#x6765;&#x83B7;&#x53D6;&#x4E0E;&#x8FD0;&#x884C; <code>svn info</code> &#x7C7B;&#x4F3C;&#x7684;&#x4FE1;&#x606F;&#xFF1A;</p>
+<pre><code>$ git svn info
+Path: .
+URL: https://schacon-test.googlecode.com/svn/trunk
+Repository Root: https://schacon-test.googlecode.com/svn
+Repository UUID: 4c93b258-373f-11de-be05-5f7a86268029
+Revision: 87
+Node Kind: directory
+Schedule: normal
+Last Changed Author: schacon
+Last Changed Rev: 87
+Last Changed Date: 2009-05-02 16:07:37 -0700 (Sat, 02 May 2009)
+</code></pre><p>&#x5B83;&#x4E0E; <code>blame</code> &#x548C; <code>log</code> &#x7684;&#x76F8;&#x540C;&#x70B9;&#x5728;&#x4E8E;&#x79BB;&#x7EBF;&#x8FD0;&#x884C;&#x4EE5;&#x53CA;&#x53EA;&#x66F4;&#x65B0;&#x5230;&#x6700;&#x540E;&#x4E00;&#x6B21;&#x4E0E; Subversion &#x670D;&#x52A1;&#x5668;&#x901A;&#x4FE1;&#x7684;&#x72B6;&#x6001;&#x3002;</p>
+<h3 id="&#x7565;-subversion-&#x4E4B;&#x6240;&#x7565;">&#x7565; Subversion &#x4E4B;&#x6240;&#x7565;</h3>
+<p>&#x5047;&#x5982;&#x514B;&#x9686;&#x4E86;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x4E86; <code>svn:ignore</code> &#x5C5E;&#x6027;&#x7684; Subversion &#x4ED3;&#x5E93;&#xFF0C;&#x5C31;&#x6709;&#x5FC5;&#x8981;&#x5EFA;&#x7ACB;&#x5BF9;&#x5E94;&#x7684; <code>.gitignore</code> &#x6587;&#x4EF6;&#x6765;&#x9632;&#x6B62;&#x610F;&#x5916;&#x63D0;&#x4EA4;&#x4E00;&#x4E9B;&#x4E0D;&#x5E94;&#x8BE5;&#x63D0;&#x4EA4;&#x7684;&#x6587;&#x4EF6;&#x3002;<code>git svn</code> &#x6709;&#x4E24;&#x4E2A;&#x6709;&#x76CA;&#x4E8E;&#x6539;&#x5584;&#x8BE5;&#x95EE;&#x9898;&#x7684;&#x547D;&#x4EE4;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x662F; <code>git svn create-ignore</code>&#xFF0C;&#x5B83;&#x81EA;&#x52A8;&#x5EFA;&#x7ACB;&#x5BF9;&#x5E94;&#x7684; <code>.gitignore</code> &#x6587;&#x4EF6;&#xFF0C;&#x4EE5;&#x4FBF;&#x4E0B;&#x6B21;&#x63D0;&#x4EA4;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x5B83;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x4E2A;&#x547D;&#x4EE4;&#x662F; <code>git svn show-ignore</code>&#xFF0C;&#x5B83;&#x628A;&#x9700;&#x8981;&#x653E;&#x8FDB; <code>.gitignore</code> &#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x6253;&#x5370;&#x5230;&#x6807;&#x51C6;&#x8F93;&#x51FA;&#xFF0C;&#x65B9;&#x4FBF;&#x6211;&#x4EEC;&#x628A;&#x8F93;&#x51FA;&#x91CD;&#x5B9A;&#x5411;&#x5230;&#x9879;&#x76EE;&#x7684;&#x9ED1;&#x540D;&#x5355;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code>$ git svn show-ignore &gt; .git/info/exclude
+</code></pre><p>&#x8FD9;&#x6837;&#x4E00;&#x6765;&#xFF0C;&#x907F;&#x514D;&#x4E86; <code>.gitignore</code> &#x5BF9;&#x9879;&#x76EE;&#x7684;&#x5E72;&#x6270;&#x3002;&#x5982;&#x679C;&#x4F60;&#x662F;&#x4E00;&#x4E2A; Subversion &#x56E2;&#x961F;&#x91CC;&#x552F;&#x4E00;&#x7684; Git &#x7528;&#x6237;&#xFF0C;&#x800C;&#x5176;&#x4ED6;&#x961F;&#x53CB;&#x4E0D;&#x559C;&#x6B22;&#x9879;&#x76EE;&#x5305;&#x542B; <code>.gitignore</code>&#xFF0C;&#x8BE5;&#x65B9;&#x6CD5;&#x662F;&#x4F60;&#x7684;&#x4E0D;&#x4E8C;&#x4E4B;&#x9009;&#x3002;</p>
+<h2 id="git-svn-&#x603B;&#x7ED3;">Git-Svn &#x603B;&#x7ED3;</h2>
+<p><code>git svn</code> &#x5DE5;&#x5177;&#x96C6;&#x5728;&#x5F53;&#x524D;&#x4E0D;&#x5F97;&#x4E0D;&#x4F7F;&#x7528; Subversion &#x670D;&#x52A1;&#x5668;&#x6216;&#x8005;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x8981;&#x6C42;&#x4F7F;&#x7528; Subversion &#x670D;&#x52A1;&#x5668;&#x7684;&#x65F6;&#x5019;&#x683C;&#x5916;&#x6709;&#x7528;&#x3002;&#x4E0D;&#x59A8;&#x628A;&#x5B83;&#x770B;&#x6210;&#x4E00;&#x4E2A;&#x8DDB;&#x811A;&#x7684; Git&#xFF0C;&#x7136;&#x800C;&#xFF0C;&#x4F60;&#x8FD8;&#x662F;&#x6709;&#x53EF;&#x80FD;&#x5728;&#x8F6C;&#x6362;&#x8FC7;&#x7A0B;&#x4E2D;&#x78B0;&#x5230;&#x4E00;&#x4E9B;&#x56F0;&#x60D1;&#x4F60;&#x548C;&#x5408;&#x4F5C;&#x8005;&#x4EEC;&#x7684;&#x8FF7;&#x9898;&#x3002;&#x4E3A;&#x4E86;&#x907F;&#x514D;&#x9EBB;&#x70E6;&#xFF0C;&#x8BD5;&#x7740;&#x9075;&#x5B88;&#x5982;&#x4E0B;&#x5B88;&#x5219;&#xFF1A;</p>
+<ul>
+<li>&#x4FDD;&#x6301;&#x4E00;&#x4E2A;&#x4E0D;&#x5305;&#x542B;&#x7531; <code>git merge</code> &#x751F;&#x6210;&#x7684; commit &#x7684;&#x7EBF;&#x6027;&#x63D0;&#x4EA4;&#x5386;&#x53F2;&#x3002;&#x5C06;&#x5728;&#x4E3B;&#x7EBF;&#x5206;&#x652F;&#x5916;&#x8FDB;&#x884C;&#x7684;&#x5F00;&#x53D1;&#x901A;&#x901A;&#x884D;&#x5408;&#x56DE;&#x4E3B;&#x7EBF;&#xFF1B;&#x907F;&#x514D;&#x76F4;&#x63A5;&#x5408;&#x5E76;&#x3002;</li>
+<li>&#x4E0D;&#x8981;&#x5355;&#x72EC;&#x5EFA;&#x7ACB;&#x548C;&#x4F7F;&#x7528;&#x4E00;&#x4E2A; Git &#x670D;&#x52A1;&#x6765;&#x641E;&#x5408;&#x4F5C;&#x3002;&#x53EF;&#x4EE5;&#x4E3A;&#x4E86;&#x52A0;&#x901F;&#x65B0;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x514B;&#x9686;&#x8FDB;&#x7A0B;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x8981;&#x5411;&#x5B83;&#x63D0;&#x4F9B;&#x4EFB;&#x4F55;&#x4E0D;&#x5305;&#x542B; <code>git-svn-id</code> &#x6761;&#x76EE;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A; <code>pre-receive</code> &#x6302;&#x94A9;&#x6765;&#x5728;&#x6BCF;&#x4E00;&#x4E2A;&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x4E2D;&#x67E5;&#x627E; <code>git-svn-id</code> &#x5E76;&#x62D2;&#x7EDD;&#x63D0;&#x4EA4;&#x90A3;&#x4E9B;&#x4E0D;&#x5305;&#x542B;&#x5B83;&#x7684; commit&#x3002;</li>
+</ul>
+<p>&#x5982;&#x679C;&#x9075;&#x5FAA;&#x8FD9;&#x4E9B;&#x5B88;&#x5219;&#xFF0C;&#x5728; Subversion &#x4E0A;&#x5DE5;&#x4F5C;&#x8FD8;&#x53EF;&#x4EE5;&#x63A5;&#x53D7;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x5982;&#x679C;&#x80FD;&#x8FC1;&#x5F99;&#x5230;&#x771F;&#x6B63;&#x7684; Git &#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5219;&#x80FD;&#x4E3A;&#x56E2;&#x961F;&#x5E26;&#x6765;&#x66F4;&#x591A;&#x597D;&#x5904;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Git 与其他系统">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="243dee579e1958b7ef4eb4298c629637.html" class="navigation navigation-next " aria-label="Next page: 迁移到 Git">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Git 与 Subversion","level":"1.9.1","depth":2,"next":{"title":"迁移到 Git","level":"1.9.2","depth":2,"path":"7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.md","ref":"7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.md","articles":[]},"previous":{"title":"Git 与其他系统","level":"1.9","depth":1,"path":"7d1e3d0cb73ec4482c8ec84512255372/README.md","ref":"7d1e3d0cb73ec4482c8ec84512255372/README.md","articles":[{"title":"Git 与 Subversion","level":"1.9.1","depth":2,"path":"7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.md","ref":"7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.md","articles":[]},{"title":"迁移到 Git","level":"1.9.2","depth":2,"path":"7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.md","ref":"7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.md","articles":[]},{"title":"总结","level":"1.9.3","depth":2,"path":"7d1e3d0cb73ec4482c8ec84512255372/1571c3c12c7f38e137ebd5d0b553e7e6.md","ref":"7d1e3d0cb73ec4482c8ec84512255372/1571c3c12c7f38e137ebd5d0b553e7e6.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh","gitbook":"*"},"file":{"path":"7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.md","mtime":"2020-09-20T03:04:20.708Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-21T04:23:49.859Z"},"basePath":"..","book":{"language":"zh"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
